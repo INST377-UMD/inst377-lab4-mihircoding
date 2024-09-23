@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4</title>
+    <link rel="stylesheet" href="lab4.css">
+    <script src="lab4.js"></script>
+</head>
+<body>
+    <h1 id="page-heading">Lab 4</h1>
+
+    <div class="section" id="alert-me-section">
+        <h2>Alert Me Section</h2>
+        <form id="alert-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <button type="button" onclick="alertName()">Alert Me</button>
+        </form>
+    </div>
+
+    <div class="section" id="change-color-section">
+        <h2>Change Color Section</h2>
+        <button type="button" onclick="changeColor()">Change Color</button>
+    </div>
+
+    <div class="section" id="text-tester-section">
+        <h2>Text Tester Section</h2>
+        <form id="text-tester-form">
+            <label for="text">Text:</label>
+            <input type="text" id="text" name="text">
+            <button type="button" onclick="validateText()">Validate Text</button>
+        </form>
+    </div>
+
+    <div class="section" id="add-text-section">
+        <h2>Add Text Section</h2>
+        <button type="button" onclick="addText()">Add Text</button>
+    </div>
+
+
+</body>
+</html>
